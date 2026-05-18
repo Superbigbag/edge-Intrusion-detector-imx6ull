@@ -52,18 +52,18 @@ option(BUILD_FASTEST "Build YOLO-FastestV2 version" OFF)
 
 if(BUILD_NANODET)
     add_executable(detect
-        nanodet_m_INT8/nanodet.cpp
-        nanodet_m_INT8/nanodet_cam_detect.cpp
+        models/nanodet_m_INT8/nanodet.cpp
+        models/nanodet_m_INT8/nanodet_cam_detect.cpp
     )
 elseif(BUILD_FASTEST)
     add_executable(detect
-        YOLO-FastestV2_FP16/yolofastestv2.cpp
-        YOLO-FastestV2_FP16/yolo_cam_detect.cpp
+        models/YOLO-FastestV2_FP16/yolofastestv2.cpp
+        models/YOLO-FastestV2_FP16/yolo_cam_detect.cpp
     )
 else()
     add_executable(detect
-        YOLOv11n_FP16/yolov11.cpp
-        YOLOv11n_FP16/yolov11_cam_detect.cpp
+        models/YOLOv11n_FP16/yolov11.cpp
+        models/YOLOv11n_FP16/yolov11_cam_detect.cpp
     )
 endif()
 target_link_libraries(detect

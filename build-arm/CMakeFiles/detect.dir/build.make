@@ -57,64 +57,64 @@ include CMakeFiles/detect.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/detect.dir/flags.make
 
-CMakeFiles/detect.dir/YOLO-FastestV2_FP16/yolofastestv2.cpp.o: CMakeFiles/detect.dir/flags.make
-CMakeFiles/detect.dir/YOLO-FastestV2_FP16/yolofastestv2.cpp.o: ../YOLO-FastestV2_FP16/yolofastestv2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/hgfs/sharefile/ncnn/build-arm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/detect.dir/YOLO-FastestV2_FP16/yolofastestv2.cpp.o"
-	/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/detect.dir/YOLO-FastestV2_FP16/yolofastestv2.cpp.o -c /mnt/hgfs/sharefile/ncnn/YOLO-FastestV2_FP16/yolofastestv2.cpp
+CMakeFiles/detect.dir/models/YOLO-FastestV2_FP16/yolofastestv2.cpp.o: CMakeFiles/detect.dir/flags.make
+CMakeFiles/detect.dir/models/YOLO-FastestV2_FP16/yolofastestv2.cpp.o: ../models/YOLO-FastestV2_FP16/yolofastestv2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/hgfs/sharefile/ncnn/build-arm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/detect.dir/models/YOLO-FastestV2_FP16/yolofastestv2.cpp.o"
+	/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/detect.dir/models/YOLO-FastestV2_FP16/yolofastestv2.cpp.o -c /mnt/hgfs/sharefile/ncnn/models/YOLO-FastestV2_FP16/yolofastestv2.cpp
 
-CMakeFiles/detect.dir/YOLO-FastestV2_FP16/yolofastestv2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/detect.dir/YOLO-FastestV2_FP16/yolofastestv2.cpp.i"
-	/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/hgfs/sharefile/ncnn/YOLO-FastestV2_FP16/yolofastestv2.cpp > CMakeFiles/detect.dir/YOLO-FastestV2_FP16/yolofastestv2.cpp.i
+CMakeFiles/detect.dir/models/YOLO-FastestV2_FP16/yolofastestv2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/detect.dir/models/YOLO-FastestV2_FP16/yolofastestv2.cpp.i"
+	/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/hgfs/sharefile/ncnn/models/YOLO-FastestV2_FP16/yolofastestv2.cpp > CMakeFiles/detect.dir/models/YOLO-FastestV2_FP16/yolofastestv2.cpp.i
 
-CMakeFiles/detect.dir/YOLO-FastestV2_FP16/yolofastestv2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/detect.dir/YOLO-FastestV2_FP16/yolofastestv2.cpp.s"
-	/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/hgfs/sharefile/ncnn/YOLO-FastestV2_FP16/yolofastestv2.cpp -o CMakeFiles/detect.dir/YOLO-FastestV2_FP16/yolofastestv2.cpp.s
+CMakeFiles/detect.dir/models/YOLO-FastestV2_FP16/yolofastestv2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/detect.dir/models/YOLO-FastestV2_FP16/yolofastestv2.cpp.s"
+	/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/hgfs/sharefile/ncnn/models/YOLO-FastestV2_FP16/yolofastestv2.cpp -o CMakeFiles/detect.dir/models/YOLO-FastestV2_FP16/yolofastestv2.cpp.s
 
-CMakeFiles/detect.dir/YOLO-FastestV2_FP16/yolofastestv2.cpp.o.requires:
+CMakeFiles/detect.dir/models/YOLO-FastestV2_FP16/yolofastestv2.cpp.o.requires:
 
-.PHONY : CMakeFiles/detect.dir/YOLO-FastestV2_FP16/yolofastestv2.cpp.o.requires
+.PHONY : CMakeFiles/detect.dir/models/YOLO-FastestV2_FP16/yolofastestv2.cpp.o.requires
 
-CMakeFiles/detect.dir/YOLO-FastestV2_FP16/yolofastestv2.cpp.o.provides: CMakeFiles/detect.dir/YOLO-FastestV2_FP16/yolofastestv2.cpp.o.requires
-	$(MAKE) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/YOLO-FastestV2_FP16/yolofastestv2.cpp.o.provides.build
-.PHONY : CMakeFiles/detect.dir/YOLO-FastestV2_FP16/yolofastestv2.cpp.o.provides
+CMakeFiles/detect.dir/models/YOLO-FastestV2_FP16/yolofastestv2.cpp.o.provides: CMakeFiles/detect.dir/models/YOLO-FastestV2_FP16/yolofastestv2.cpp.o.requires
+	$(MAKE) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/models/YOLO-FastestV2_FP16/yolofastestv2.cpp.o.provides.build
+.PHONY : CMakeFiles/detect.dir/models/YOLO-FastestV2_FP16/yolofastestv2.cpp.o.provides
 
-CMakeFiles/detect.dir/YOLO-FastestV2_FP16/yolofastestv2.cpp.o.provides.build: CMakeFiles/detect.dir/YOLO-FastestV2_FP16/yolofastestv2.cpp.o
+CMakeFiles/detect.dir/models/YOLO-FastestV2_FP16/yolofastestv2.cpp.o.provides.build: CMakeFiles/detect.dir/models/YOLO-FastestV2_FP16/yolofastestv2.cpp.o
 
 
-CMakeFiles/detect.dir/YOLO-FastestV2_FP16/yolo_cam_detect.cpp.o: CMakeFiles/detect.dir/flags.make
-CMakeFiles/detect.dir/YOLO-FastestV2_FP16/yolo_cam_detect.cpp.o: ../YOLO-FastestV2_FP16/yolo_cam_detect.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/hgfs/sharefile/ncnn/build-arm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/detect.dir/YOLO-FastestV2_FP16/yolo_cam_detect.cpp.o"
-	/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/detect.dir/YOLO-FastestV2_FP16/yolo_cam_detect.cpp.o -c /mnt/hgfs/sharefile/ncnn/YOLO-FastestV2_FP16/yolo_cam_detect.cpp
+CMakeFiles/detect.dir/models/YOLO-FastestV2_FP16/yolo_cam_detect.cpp.o: CMakeFiles/detect.dir/flags.make
+CMakeFiles/detect.dir/models/YOLO-FastestV2_FP16/yolo_cam_detect.cpp.o: ../models/YOLO-FastestV2_FP16/yolo_cam_detect.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/hgfs/sharefile/ncnn/build-arm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/detect.dir/models/YOLO-FastestV2_FP16/yolo_cam_detect.cpp.o"
+	/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/detect.dir/models/YOLO-FastestV2_FP16/yolo_cam_detect.cpp.o -c /mnt/hgfs/sharefile/ncnn/models/YOLO-FastestV2_FP16/yolo_cam_detect.cpp
 
-CMakeFiles/detect.dir/YOLO-FastestV2_FP16/yolo_cam_detect.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/detect.dir/YOLO-FastestV2_FP16/yolo_cam_detect.cpp.i"
-	/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/hgfs/sharefile/ncnn/YOLO-FastestV2_FP16/yolo_cam_detect.cpp > CMakeFiles/detect.dir/YOLO-FastestV2_FP16/yolo_cam_detect.cpp.i
+CMakeFiles/detect.dir/models/YOLO-FastestV2_FP16/yolo_cam_detect.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/detect.dir/models/YOLO-FastestV2_FP16/yolo_cam_detect.cpp.i"
+	/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/hgfs/sharefile/ncnn/models/YOLO-FastestV2_FP16/yolo_cam_detect.cpp > CMakeFiles/detect.dir/models/YOLO-FastestV2_FP16/yolo_cam_detect.cpp.i
 
-CMakeFiles/detect.dir/YOLO-FastestV2_FP16/yolo_cam_detect.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/detect.dir/YOLO-FastestV2_FP16/yolo_cam_detect.cpp.s"
-	/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/hgfs/sharefile/ncnn/YOLO-FastestV2_FP16/yolo_cam_detect.cpp -o CMakeFiles/detect.dir/YOLO-FastestV2_FP16/yolo_cam_detect.cpp.s
+CMakeFiles/detect.dir/models/YOLO-FastestV2_FP16/yolo_cam_detect.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/detect.dir/models/YOLO-FastestV2_FP16/yolo_cam_detect.cpp.s"
+	/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/hgfs/sharefile/ncnn/models/YOLO-FastestV2_FP16/yolo_cam_detect.cpp -o CMakeFiles/detect.dir/models/YOLO-FastestV2_FP16/yolo_cam_detect.cpp.s
 
-CMakeFiles/detect.dir/YOLO-FastestV2_FP16/yolo_cam_detect.cpp.o.requires:
+CMakeFiles/detect.dir/models/YOLO-FastestV2_FP16/yolo_cam_detect.cpp.o.requires:
 
-.PHONY : CMakeFiles/detect.dir/YOLO-FastestV2_FP16/yolo_cam_detect.cpp.o.requires
+.PHONY : CMakeFiles/detect.dir/models/YOLO-FastestV2_FP16/yolo_cam_detect.cpp.o.requires
 
-CMakeFiles/detect.dir/YOLO-FastestV2_FP16/yolo_cam_detect.cpp.o.provides: CMakeFiles/detect.dir/YOLO-FastestV2_FP16/yolo_cam_detect.cpp.o.requires
-	$(MAKE) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/YOLO-FastestV2_FP16/yolo_cam_detect.cpp.o.provides.build
-.PHONY : CMakeFiles/detect.dir/YOLO-FastestV2_FP16/yolo_cam_detect.cpp.o.provides
+CMakeFiles/detect.dir/models/YOLO-FastestV2_FP16/yolo_cam_detect.cpp.o.provides: CMakeFiles/detect.dir/models/YOLO-FastestV2_FP16/yolo_cam_detect.cpp.o.requires
+	$(MAKE) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/models/YOLO-FastestV2_FP16/yolo_cam_detect.cpp.o.provides.build
+.PHONY : CMakeFiles/detect.dir/models/YOLO-FastestV2_FP16/yolo_cam_detect.cpp.o.provides
 
-CMakeFiles/detect.dir/YOLO-FastestV2_FP16/yolo_cam_detect.cpp.o.provides.build: CMakeFiles/detect.dir/YOLO-FastestV2_FP16/yolo_cam_detect.cpp.o
+CMakeFiles/detect.dir/models/YOLO-FastestV2_FP16/yolo_cam_detect.cpp.o.provides.build: CMakeFiles/detect.dir/models/YOLO-FastestV2_FP16/yolo_cam_detect.cpp.o
 
 
 # Object files for target detect
 detect_OBJECTS = \
-"CMakeFiles/detect.dir/YOLO-FastestV2_FP16/yolofastestv2.cpp.o" \
-"CMakeFiles/detect.dir/YOLO-FastestV2_FP16/yolo_cam_detect.cpp.o"
+"CMakeFiles/detect.dir/models/YOLO-FastestV2_FP16/yolofastestv2.cpp.o" \
+"CMakeFiles/detect.dir/models/YOLO-FastestV2_FP16/yolo_cam_detect.cpp.o"
 
 # External object files for target detect
 detect_EXTERNAL_OBJECTS =
 
-detect: CMakeFiles/detect.dir/YOLO-FastestV2_FP16/yolofastestv2.cpp.o
-detect: CMakeFiles/detect.dir/YOLO-FastestV2_FP16/yolo_cam_detect.cpp.o
+detect: CMakeFiles/detect.dir/models/YOLO-FastestV2_FP16/yolofastestv2.cpp.o
+detect: CMakeFiles/detect.dir/models/YOLO-FastestV2_FP16/yolo_cam_detect.cpp.o
 detect: CMakeFiles/detect.dir/build.make
 detect: ../ncnn-src/build-arm/src/libncnn.a
 detect: CMakeFiles/detect.dir/link.txt
@@ -126,8 +126,8 @@ CMakeFiles/detect.dir/build: detect
 
 .PHONY : CMakeFiles/detect.dir/build
 
-CMakeFiles/detect.dir/requires: CMakeFiles/detect.dir/YOLO-FastestV2_FP16/yolofastestv2.cpp.o.requires
-CMakeFiles/detect.dir/requires: CMakeFiles/detect.dir/YOLO-FastestV2_FP16/yolo_cam_detect.cpp.o.requires
+CMakeFiles/detect.dir/requires: CMakeFiles/detect.dir/models/YOLO-FastestV2_FP16/yolofastestv2.cpp.o.requires
+CMakeFiles/detect.dir/requires: CMakeFiles/detect.dir/models/YOLO-FastestV2_FP16/yolo_cam_detect.cpp.o.requires
 
 .PHONY : CMakeFiles/detect.dir/requires
 

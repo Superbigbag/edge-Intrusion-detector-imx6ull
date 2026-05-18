@@ -123,59 +123,59 @@ detect/fast:
 	$(MAKE) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/build
 .PHONY : detect/fast
 
-YOLO-FastestV2_FP16/yolo_cam_detect.o: YOLO-FastestV2_FP16/yolo_cam_detect.cpp.o
+models/YOLO-FastestV2_FP16/yolo_cam_detect.o: models/YOLO-FastestV2_FP16/yolo_cam_detect.cpp.o
 
-.PHONY : YOLO-FastestV2_FP16/yolo_cam_detect.o
-
-# target to build an object file
-YOLO-FastestV2_FP16/yolo_cam_detect.cpp.o:
-	$(MAKE) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/YOLO-FastestV2_FP16/yolo_cam_detect.cpp.o
-.PHONY : YOLO-FastestV2_FP16/yolo_cam_detect.cpp.o
-
-YOLO-FastestV2_FP16/yolo_cam_detect.i: YOLO-FastestV2_FP16/yolo_cam_detect.cpp.i
-
-.PHONY : YOLO-FastestV2_FP16/yolo_cam_detect.i
-
-# target to preprocess a source file
-YOLO-FastestV2_FP16/yolo_cam_detect.cpp.i:
-	$(MAKE) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/YOLO-FastestV2_FP16/yolo_cam_detect.cpp.i
-.PHONY : YOLO-FastestV2_FP16/yolo_cam_detect.cpp.i
-
-YOLO-FastestV2_FP16/yolo_cam_detect.s: YOLO-FastestV2_FP16/yolo_cam_detect.cpp.s
-
-.PHONY : YOLO-FastestV2_FP16/yolo_cam_detect.s
-
-# target to generate assembly for a file
-YOLO-FastestV2_FP16/yolo_cam_detect.cpp.s:
-	$(MAKE) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/YOLO-FastestV2_FP16/yolo_cam_detect.cpp.s
-.PHONY : YOLO-FastestV2_FP16/yolo_cam_detect.cpp.s
-
-YOLO-FastestV2_FP16/yolofastestv2.o: YOLO-FastestV2_FP16/yolofastestv2.cpp.o
-
-.PHONY : YOLO-FastestV2_FP16/yolofastestv2.o
+.PHONY : models/YOLO-FastestV2_FP16/yolo_cam_detect.o
 
 # target to build an object file
-YOLO-FastestV2_FP16/yolofastestv2.cpp.o:
-	$(MAKE) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/YOLO-FastestV2_FP16/yolofastestv2.cpp.o
-.PHONY : YOLO-FastestV2_FP16/yolofastestv2.cpp.o
+models/YOLO-FastestV2_FP16/yolo_cam_detect.cpp.o:
+	$(MAKE) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/models/YOLO-FastestV2_FP16/yolo_cam_detect.cpp.o
+.PHONY : models/YOLO-FastestV2_FP16/yolo_cam_detect.cpp.o
 
-YOLO-FastestV2_FP16/yolofastestv2.i: YOLO-FastestV2_FP16/yolofastestv2.cpp.i
+models/YOLO-FastestV2_FP16/yolo_cam_detect.i: models/YOLO-FastestV2_FP16/yolo_cam_detect.cpp.i
 
-.PHONY : YOLO-FastestV2_FP16/yolofastestv2.i
+.PHONY : models/YOLO-FastestV2_FP16/yolo_cam_detect.i
 
 # target to preprocess a source file
-YOLO-FastestV2_FP16/yolofastestv2.cpp.i:
-	$(MAKE) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/YOLO-FastestV2_FP16/yolofastestv2.cpp.i
-.PHONY : YOLO-FastestV2_FP16/yolofastestv2.cpp.i
+models/YOLO-FastestV2_FP16/yolo_cam_detect.cpp.i:
+	$(MAKE) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/models/YOLO-FastestV2_FP16/yolo_cam_detect.cpp.i
+.PHONY : models/YOLO-FastestV2_FP16/yolo_cam_detect.cpp.i
 
-YOLO-FastestV2_FP16/yolofastestv2.s: YOLO-FastestV2_FP16/yolofastestv2.cpp.s
+models/YOLO-FastestV2_FP16/yolo_cam_detect.s: models/YOLO-FastestV2_FP16/yolo_cam_detect.cpp.s
 
-.PHONY : YOLO-FastestV2_FP16/yolofastestv2.s
+.PHONY : models/YOLO-FastestV2_FP16/yolo_cam_detect.s
 
 # target to generate assembly for a file
-YOLO-FastestV2_FP16/yolofastestv2.cpp.s:
-	$(MAKE) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/YOLO-FastestV2_FP16/yolofastestv2.cpp.s
-.PHONY : YOLO-FastestV2_FP16/yolofastestv2.cpp.s
+models/YOLO-FastestV2_FP16/yolo_cam_detect.cpp.s:
+	$(MAKE) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/models/YOLO-FastestV2_FP16/yolo_cam_detect.cpp.s
+.PHONY : models/YOLO-FastestV2_FP16/yolo_cam_detect.cpp.s
+
+models/YOLO-FastestV2_FP16/yolofastestv2.o: models/YOLO-FastestV2_FP16/yolofastestv2.cpp.o
+
+.PHONY : models/YOLO-FastestV2_FP16/yolofastestv2.o
+
+# target to build an object file
+models/YOLO-FastestV2_FP16/yolofastestv2.cpp.o:
+	$(MAKE) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/models/YOLO-FastestV2_FP16/yolofastestv2.cpp.o
+.PHONY : models/YOLO-FastestV2_FP16/yolofastestv2.cpp.o
+
+models/YOLO-FastestV2_FP16/yolofastestv2.i: models/YOLO-FastestV2_FP16/yolofastestv2.cpp.i
+
+.PHONY : models/YOLO-FastestV2_FP16/yolofastestv2.i
+
+# target to preprocess a source file
+models/YOLO-FastestV2_FP16/yolofastestv2.cpp.i:
+	$(MAKE) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/models/YOLO-FastestV2_FP16/yolofastestv2.cpp.i
+.PHONY : models/YOLO-FastestV2_FP16/yolofastestv2.cpp.i
+
+models/YOLO-FastestV2_FP16/yolofastestv2.s: models/YOLO-FastestV2_FP16/yolofastestv2.cpp.s
+
+.PHONY : models/YOLO-FastestV2_FP16/yolofastestv2.s
+
+# target to generate assembly for a file
+models/YOLO-FastestV2_FP16/yolofastestv2.cpp.s:
+	$(MAKE) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/models/YOLO-FastestV2_FP16/yolofastestv2.cpp.s
+.PHONY : models/YOLO-FastestV2_FP16/yolofastestv2.cpp.s
 
 # Help Target
 help:
@@ -186,12 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... detect"
 	@echo "... edit_cache"
-	@echo "... YOLO-FastestV2_FP16/yolo_cam_detect.o"
-	@echo "... YOLO-FastestV2_FP16/yolo_cam_detect.i"
-	@echo "... YOLO-FastestV2_FP16/yolo_cam_detect.s"
-	@echo "... YOLO-FastestV2_FP16/yolofastestv2.o"
-	@echo "... YOLO-FastestV2_FP16/yolofastestv2.i"
-	@echo "... YOLO-FastestV2_FP16/yolofastestv2.s"
+	@echo "... models/YOLO-FastestV2_FP16/yolo_cam_detect.o"
+	@echo "... models/YOLO-FastestV2_FP16/yolo_cam_detect.i"
+	@echo "... models/YOLO-FastestV2_FP16/yolo_cam_detect.s"
+	@echo "... models/YOLO-FastestV2_FP16/yolofastestv2.o"
+	@echo "... models/YOLO-FastestV2_FP16/yolofastestv2.i"
+	@echo "... models/YOLO-FastestV2_FP16/yolofastestv2.s"
 .PHONY : help
 
 

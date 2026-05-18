@@ -16,28 +16,32 @@ The CXX compiler identification is GNU, found in "/mnt/hgfs/sharefile/ncnn/build
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /mnt/hgfs/sharefile/ncnn/build-arm/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_196d2/fast"
-/usr/bin/make -f CMakeFiles/cmTC_196d2.dir/build.make CMakeFiles/cmTC_196d2.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_15c54/fast"
+make: Warning: File 'Makefile' has modification time 0.19 s in the future
+/usr/bin/make -f CMakeFiles/cmTC_15c54.dir/build.make CMakeFiles/cmTC_15c54.dir/build
 make[1]: Entering directory '/mnt/hgfs/sharefile/ncnn/build-arm/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_196d2.dir/testCXXCompiler.cxx.o
-/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++     -o CMakeFiles/cmTC_196d2.dir/testCXXCompiler.cxx.o -c /mnt/hgfs/sharefile/ncnn/build-arm/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_196d2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_196d2.dir/link.txt --verbose=1
-/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++       CMakeFiles/cmTC_196d2.dir/testCXXCompiler.cxx.o  -o cmTC_196d2 
+make[1]: Warning: File 'CMakeFiles/cmTC_15c54.dir/flags.make' has modification time 0.18 s in the future
+Building CXX object CMakeFiles/cmTC_15c54.dir/testCXXCompiler.cxx.o
+/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++     -o CMakeFiles/cmTC_15c54.dir/testCXXCompiler.cxx.o -c /mnt/hgfs/sharefile/ncnn/build-arm/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_15c54
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15c54.dir/link.txt --verbose=1
+/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++       CMakeFiles/cmTC_15c54.dir/testCXXCompiler.cxx.o  -o cmTC_15c54 
+make[1]: warning:  Clock skew detected.  Your build may be incomplete.
 make[1]: Leaving directory '/mnt/hgfs/sharefile/ncnn/build-arm/CMakeFiles/CMakeTmp'
+make: warning:  Clock skew detected.  Your build may be incomplete.
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /mnt/hgfs/sharefile/ncnn/build-arm/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9f236/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9f236.dir/build.make CMakeFiles/cmTC_9f236.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_3027a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3027a.dir/build.make CMakeFiles/cmTC_3027a.dir/build
 make[1]: Entering directory '/mnt/hgfs/sharefile/ncnn/build-arm/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_9f236.dir/CMakeCXXCompilerABI.cpp.o
-/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++     -o CMakeFiles/cmTC_9f236.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_9f236
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f236.dir/link.txt --verbose=1
-/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++      -v CMakeFiles/cmTC_9f236.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_9f236 
+Building CXX object CMakeFiles/cmTC_3027a.dir/CMakeCXXCompilerABI.cpp.o
+/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++     -o CMakeFiles/cmTC_3027a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_3027a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3027a.dir/link.txt --verbose=1
+/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++      -v CMakeFiles/cmTC_3027a.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_3027a 
 Using built-in specs.
 COLLECT_GCC=/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++
 COLLECT_LTO_WRAPPER=/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/6.2.1/lto-wrapper
@@ -47,9 +51,9 @@ Thread model: posix
 gcc version 6.2.1 20161016 (Linaro GCC 6.2-2016.11) 
 COMPILER_PATH=/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/6.2.1/:/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/:/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/:/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/../../../../arm-linux-gnueabihf/bin/
 LIBRARY_PATH=/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/:/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/:/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/:/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/../../../../arm-linux-gnueabihf/lib/:/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib/:/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9f236' '-shared-libgcc' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu'
- /home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/6.2.1/collect2 -plugin /home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/6.2.1/liblto_plugin.so -plugin-opt=/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/6.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNERR5L.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_9f236 /home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crt1.o /home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crti.o /home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtbegin.o -L/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1 -L/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf -L/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../lib/gcc -L/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/../../../../arm-linux-gnueabihf/lib -L/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib -L/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib CMakeFiles/cmTC_9f236.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtend.o /home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9f236' '-shared-libgcc' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3027a' '-shared-libgcc' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu'
+ /home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/6.2.1/collect2 -plugin /home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/6.2.1/liblto_plugin.so -plugin-opt=/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/6.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccztZG02.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_3027a /home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crt1.o /home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crti.o /home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtbegin.o -L/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1 -L/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf -L/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../lib/gcc -L/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/../../../../arm-linux-gnueabihf/lib -L/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib -L/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib CMakeFiles/cmTC_3027a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtend.o /home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3027a' '-shared-libgcc' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu'
 make[1]: Leaving directory '/mnt/hgfs/sharefile/ncnn/build-arm/CMakeFiles/CMakeTmp'
 
 
@@ -57,14 +61,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-linux-gnueabihf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /mnt/hgfs/sharefile/ncnn/build-arm/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_9f236/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_9f236.dir/build.make CMakeFiles/cmTC_9f236.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_3027a/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_3027a.dir/build.make CMakeFiles/cmTC_3027a.dir/build]
   ignore line: [make[1]: Entering directory '/mnt/hgfs/sharefile/ncnn/build-arm/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_9f236.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++     -o CMakeFiles/cmTC_9f236.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_9f236]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f236.dir/link.txt --verbose=1]
-  ignore line: [/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++      -v CMakeFiles/cmTC_9f236.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_9f236 ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_3027a.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++     -o CMakeFiles/cmTC_3027a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_3027a]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3027a.dir/link.txt --verbose=1]
+  ignore line: [/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++      -v CMakeFiles/cmTC_3027a.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_3027a ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++]
   ignore line: [COLLECT_LTO_WRAPPER=/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/6.2.1/lto-wrapper]
@@ -74,13 +78,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 6.2.1 20161016 (Linaro GCC 6.2-2016.11) ]
   ignore line: [COMPILER_PATH=/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/6.2.1/:/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/:/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/:/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/../../../../arm-linux-gnueabihf/bin/]
   ignore line: [LIBRARY_PATH=/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/:/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/:/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/:/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/../../../../arm-linux-gnueabihf/lib/:/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib/:/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9f236' '-shared-libgcc' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu']
-  link line: [ /home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/6.2.1/collect2 -plugin /home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/6.2.1/liblto_plugin.so -plugin-opt=/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/6.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNERR5L.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_9f236 /home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crt1.o /home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crti.o /home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtbegin.o -L/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1 -L/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf -L/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../lib/gcc -L/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/../../../../arm-linux-gnueabihf/lib -L/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib -L/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib CMakeFiles/cmTC_9f236.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtend.o /home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3027a' '-shared-libgcc' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu']
+  link line: [ /home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/6.2.1/collect2 -plugin /home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/6.2.1/liblto_plugin.so -plugin-opt=/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/6.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccztZG02.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_3027a /home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crt1.o /home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crti.o /home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtbegin.o -L/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1 -L/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf -L/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../lib/gcc -L/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/../../../../arm-linux-gnueabihf/lib -L/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib -L/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib CMakeFiles/cmTC_3027a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtend.o /home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crtn.o]
     arg [/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/6.2.1/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/6.2.1/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/6.2.1/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccNERR5L.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccztZG02.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -95,7 +99,7 @@ Parsed CXX implicit link information from above output:
     arg [-m] ==> ignore
     arg [armelf_linux_eabi] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_9f236] ==> ignore
+    arg [cmTC_3027a] ==> ignore
     arg [/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crt1.o] ==> ignore
     arg [/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crti.o] ==> ignore
     arg [/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtbegin.o] ==> ignore
@@ -105,7 +109,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/../../../../arm-linux-gnueabihf/lib] ==> dir [/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/../../../../arm-linux-gnueabihf/lib]
     arg [-L/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib] ==> dir [/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib]
     arg [-L/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib] ==> dir [/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib]
-    arg [CMakeFiles/cmTC_9f236.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_3027a.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -131,15 +135,19 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
 Change Dir: /mnt/hgfs/sharefile/ncnn/build-arm/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_da71a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_da71a.dir/build.make CMakeFiles/cmTC_da71a.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_ad5a8/fast"
+make: Warning: File 'Makefile' has modification time 0.26 s in the future
+/usr/bin/make -f CMakeFiles/cmTC_ad5a8.dir/build.make CMakeFiles/cmTC_ad5a8.dir/build
 make[1]: Entering directory '/mnt/hgfs/sharefile/ncnn/build-arm/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_da71a.dir/feature_tests.cxx.o
-/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++    -std=c++1z -o CMakeFiles/cmTC_da71a.dir/feature_tests.cxx.o -c /mnt/hgfs/sharefile/ncnn/build-arm/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_da71a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da71a.dir/link.txt --verbose=1
-/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++       CMakeFiles/cmTC_da71a.dir/feature_tests.cxx.o  -o cmTC_da71a 
+make[1]: Warning: File 'CMakeFiles/cmTC_ad5a8.dir/flags.make' has modification time 0.25 s in the future
+Building CXX object CMakeFiles/cmTC_ad5a8.dir/feature_tests.cxx.o
+/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++    -std=c++1z -o CMakeFiles/cmTC_ad5a8.dir/feature_tests.cxx.o -c /mnt/hgfs/sharefile/ncnn/build-arm/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_ad5a8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad5a8.dir/link.txt --verbose=1
+/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++       CMakeFiles/cmTC_ad5a8.dir/feature_tests.cxx.o  -o cmTC_ad5a8 
+make[1]: warning:  Clock skew detected.  Your build may be incomplete.
 make[1]: Leaving directory '/mnt/hgfs/sharefile/ncnn/build-arm/CMakeFiles/CMakeTmp'
+make: warning:  Clock skew detected.  Your build may be incomplete.
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -204,14 +212,14 @@ make[1]: Leaving directory '/mnt/hgfs/sharefile/ncnn/build-arm/CMakeFiles/CMakeT
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /mnt/hgfs/sharefile/ncnn/build-arm/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ccaa2/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ccaa2.dir/build.make CMakeFiles/cmTC_ccaa2.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_36eda/fast"
+/usr/bin/make -f CMakeFiles/cmTC_36eda.dir/build.make CMakeFiles/cmTC_36eda.dir/build
 make[1]: Entering directory '/mnt/hgfs/sharefile/ncnn/build-arm/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_ccaa2.dir/feature_tests.cxx.o
-/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++    -std=c++14 -o CMakeFiles/cmTC_ccaa2.dir/feature_tests.cxx.o -c /mnt/hgfs/sharefile/ncnn/build-arm/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_ccaa2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ccaa2.dir/link.txt --verbose=1
-/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++       CMakeFiles/cmTC_ccaa2.dir/feature_tests.cxx.o  -o cmTC_ccaa2 
+Building CXX object CMakeFiles/cmTC_36eda.dir/feature_tests.cxx.o
+/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++    -std=c++14 -o CMakeFiles/cmTC_36eda.dir/feature_tests.cxx.o -c /mnt/hgfs/sharefile/ncnn/build-arm/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_36eda
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36eda.dir/link.txt --verbose=1
+/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++       CMakeFiles/cmTC_36eda.dir/feature_tests.cxx.o  -o cmTC_36eda 
 make[1]: Leaving directory '/mnt/hgfs/sharefile/ncnn/build-arm/CMakeFiles/CMakeTmp'
 
 
@@ -277,14 +285,14 @@ make[1]: Leaving directory '/mnt/hgfs/sharefile/ncnn/build-arm/CMakeFiles/CMakeT
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /mnt/hgfs/sharefile/ncnn/build-arm/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_32e38/fast"
-/usr/bin/make -f CMakeFiles/cmTC_32e38.dir/build.make CMakeFiles/cmTC_32e38.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_94c09/fast"
+/usr/bin/make -f CMakeFiles/cmTC_94c09.dir/build.make CMakeFiles/cmTC_94c09.dir/build
 make[1]: Entering directory '/mnt/hgfs/sharefile/ncnn/build-arm/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_32e38.dir/feature_tests.cxx.o
-/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++    -std=c++11 -o CMakeFiles/cmTC_32e38.dir/feature_tests.cxx.o -c /mnt/hgfs/sharefile/ncnn/build-arm/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_32e38
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32e38.dir/link.txt --verbose=1
-/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++       CMakeFiles/cmTC_32e38.dir/feature_tests.cxx.o  -o cmTC_32e38 
+Building CXX object CMakeFiles/cmTC_94c09.dir/feature_tests.cxx.o
+/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++    -std=c++11 -o CMakeFiles/cmTC_94c09.dir/feature_tests.cxx.o -c /mnt/hgfs/sharefile/ncnn/build-arm/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_94c09
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94c09.dir/link.txt --verbose=1
+/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++       CMakeFiles/cmTC_94c09.dir/feature_tests.cxx.o  -o cmTC_94c09 
 make[1]: Leaving directory '/mnt/hgfs/sharefile/ncnn/build-arm/CMakeFiles/CMakeTmp'
 
 
@@ -350,15 +358,19 @@ make[1]: Leaving directory '/mnt/hgfs/sharefile/ncnn/build-arm/CMakeFiles/CMakeT
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /mnt/hgfs/sharefile/ncnn/build-arm/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c01ec/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c01ec.dir/build.make CMakeFiles/cmTC_c01ec.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_12058/fast"
+make: Warning: File 'Makefile' has modification time 0.2 s in the future
+/usr/bin/make -f CMakeFiles/cmTC_12058.dir/build.make CMakeFiles/cmTC_12058.dir/build
 make[1]: Entering directory '/mnt/hgfs/sharefile/ncnn/build-arm/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_c01ec.dir/feature_tests.cxx.o
-/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++    -std=c++98 -o CMakeFiles/cmTC_c01ec.dir/feature_tests.cxx.o -c /mnt/hgfs/sharefile/ncnn/build-arm/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_c01ec
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c01ec.dir/link.txt --verbose=1
-/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++       CMakeFiles/cmTC_c01ec.dir/feature_tests.cxx.o  -o cmTC_c01ec 
+make[1]: Warning: File 'CMakeFiles/cmTC_12058.dir/flags.make' has modification time 0.19 s in the future
+Building CXX object CMakeFiles/cmTC_12058.dir/feature_tests.cxx.o
+/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++    -std=c++98 -o CMakeFiles/cmTC_12058.dir/feature_tests.cxx.o -c /mnt/hgfs/sharefile/ncnn/build-arm/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_12058
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12058.dir/link.txt --verbose=1
+/home/book/tmp/ToolChain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++       CMakeFiles/cmTC_12058.dir/feature_tests.cxx.o  -o cmTC_12058 
+make[1]: warning:  Clock skew detected.  Your build may be incomplete.
 make[1]: Leaving directory '/mnt/hgfs/sharefile/ncnn/build-arm/CMakeFiles/CMakeTmp'
+make: warning:  Clock skew detected.  Your build may be incomplete.
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/detect.dir/YOLO-FastestV2_FP16/yolofastestv2.cpp.o"
-  "CMakeFiles/detect.dir/YOLO-FastestV2_FP16/yolo_cam_detect.cpp.o"
+  "CMakeFiles/detect.dir/models/YOLO-FastestV2_FP16/yolofastestv2.cpp.o"
+  "CMakeFiles/detect.dir/models/YOLO-FastestV2_FP16/yolo_cam_detect.cpp.o"
   "detect.pdb"
   "detect"
 )

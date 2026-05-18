@@ -54,10 +54,10 @@ YUV→BGR 15ms | 缩放+归一化 22ms | 推理 336ms | 解码+NMS 23ms
 **1. 部署到板端**
 
 ```bash
-scp YOLO-FastestV2_INT8/detect \
-    YOLO-FastestV2_INT8/yolo-fastestv2.param \
-    YOLO-FastestV2_INT8/yolo-fastestv2.bin \
-    YOLO-FastestV2_INT8/mqtt.conf \
+scp models/YOLO-FastestV2_INT8/detect \
+    models/YOLO-FastestV2_INT8/yolo-fastestv2.param \
+    models/YOLO-FastestV2_INT8/yolo-fastestv2.bin \
+    models/YOLO-FastestV2_INT8/mqtt.conf \
     root@<板子IP>:/app/
 ```
 

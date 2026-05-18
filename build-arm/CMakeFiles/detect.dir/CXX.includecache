@@ -200,7 +200,7 @@ stdint.h
 
 ../ncnn-src/src/vulkan_header_fix.h
 
-/mnt/hgfs/sharefile/ncnn/YOLO-FastestV2_FP16/mqtt_client.h
+/mnt/hgfs/sharefile/ncnn/models/YOLO-FastestV2_FP16/mqtt_client.h
 cstdint
 -
 cstring
@@ -220,11 +220,11 @@ arpa/inet.h
 netdb.h
 -
 
-/mnt/hgfs/sharefile/ncnn/YOLO-FastestV2_FP16/yolo_cam_detect.cpp
+/mnt/hgfs/sharefile/ncnn/models/YOLO-FastestV2_FP16/yolo_cam_detect.cpp
 yolofastestv2.h
-/mnt/hgfs/sharefile/ncnn/YOLO-FastestV2_FP16/yolofastestv2.h
+/mnt/hgfs/sharefile/ncnn/models/YOLO-FastestV2_FP16/yolofastestv2.h
 mqtt_client.h
-/mnt/hgfs/sharefile/ncnn/YOLO-FastestV2_FP16/mqtt_client.h
+/mnt/hgfs/sharefile/ncnn/models/YOLO-FastestV2_FP16/mqtt_client.h
 cstdio
 -
 cstdlib
@@ -250,9 +250,9 @@ sys/stat.h
 linux/videodev2.h
 -
 
-/mnt/hgfs/sharefile/ncnn/YOLO-FastestV2_FP16/yolofastestv2.cpp
+/mnt/hgfs/sharefile/ncnn/models/YOLO-FastestV2_FP16/yolofastestv2.cpp
 yolofastestv2.h
-/mnt/hgfs/sharefile/ncnn/YOLO-FastestV2_FP16/yolofastestv2.h
+/mnt/hgfs/sharefile/ncnn/models/YOLO-FastestV2_FP16/yolofastestv2.h
 algorithm
 -
 cmath
@@ -260,9 +260,9 @@ cmath
 ctime
 -
 
-/mnt/hgfs/sharefile/ncnn/YOLO-FastestV2_FP16/yolofastestv2.h
+/mnt/hgfs/sharefile/ncnn/models/YOLO-FastestV2_FP16/yolofastestv2.h
 vector
 -
 net.h
-/mnt/hgfs/sharefile/ncnn/YOLO-FastestV2_FP16/net.h
+/mnt/hgfs/sharefile/ncnn/models/YOLO-FastestV2_FP16/net.h
 
