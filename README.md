@@ -95,7 +95,7 @@ cd /root
 <img src="https://github.com/Superbigbag/edge-Intrusion-detector-imx6ull/blob/main/images/pc%E7%9A%84%E5%90%8C%E6%AD%A5%E6%89%93%E5%8D%B0%E7%BB%93%E6%9E%9C.png" width="400" alt="系统实物图">
 
 ### LED报警
-<img src="" width="400" alt="系统实物图">
+<img src="https://github.com/Superbigbag/edge-Intrusion-detector-imx6ull/blob/main/images/LED%E4%BA%AE.jpg" width="400" alt="系统实物图">
 
 
 
@@ -105,7 +105,7 @@ cd /root
 | 组件 | 规格 |
 |------|------|
 | 开发板 | 百问网 IMX6ULL Pro |
-| CPU | NXP i.MX6ULL, Cortex-A7 @ 800MHz |
+| CPU | NXP iMX6ULL, Cortex-A7 @ 800MHz |
 | 内存 | 512MB DDR3 |
 | 摄像头 | USB UVC (YUYV 640×480) |
 | 指示灯 | GPIO131 板载 USR LED（低电平亮） |
@@ -131,8 +131,10 @@ Topic：`$oc/devices/{device_id}/sys/properties/report`
 }
 ```
 ---
-## 参考文献
-csdn上的
+## 相关参考文献
+[嵌入式Linux入门级板卡的神经网络框架ncnn移植与测试-米尔i.MX6UL开发板](https://zhuanlan.zhihu.com/p/607234913)   
+
+[imx6ull移植ncnn框架并运行yolo11目标检测模型（3）部署yolo11目标检测模型，交叉编译自己的程序](https://blog.csdn.net/qq_54050349/article/details/150104418?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-0-150104418-blog-159101483.235^v43^pc_blog_bottom_relevance_base9&spm=1001.2101.3001.4242.1&utm_relevant_index=2)
 
 ---
 
