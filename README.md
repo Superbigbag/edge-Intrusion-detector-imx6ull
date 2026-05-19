@@ -2,7 +2,7 @@
 
 > 在 **NXP iMX6ULL** (Cortex-A7 800MHz, 512MB RAM) 上实现实时人员检测，并通过 MQTT 上报华为云 IoT 平台。
 
-**核心亮点：**
+**🟪 核心亮点：**
 - **纯 CPU 推理** — 无 GPU、无 NPU，仅靠 ARM NEON 指令加速
 - **INT8 量化** — 单核 Cortex-A7 跑出 400ms/帧，模型仅 272KB
 - **MQTT 云端上报** — 零依赖 MQTT 3.1.1 客户端
@@ -141,10 +141,6 @@ Topic：`$oc/devices/{device_id}/sys/properties/report`
 ## Debug 事项
 
 - [x] Box 解码漏 stride 乘法 → 框尺寸缩小 8-32 倍，修复后正确框住单人
-- [x] `free(rgb_data)` 提前释放 → 截获图无法访问 BGR 缓冲，改为循环末尾释放
 - [x] MQTT 密码算法错误 → 先 Base64 后 Hex；先 key=密钥 后 key=时间戳（华为云 HMAC 顺序相反）
-- [x] MQTT 时间戳格式错误 → Unix epoch → UTC `YYYYMMDDHH`
-- [x] 告警不退出 → MQTT 代码块 `}` 误吞 else 分支，`alarm_frames++` 丢失
-- [x] 截获图框过大 → 解码器已将 boxes 缩放到相机分辨率，画图时重复缩放
-- [x] YUYV→BGR 整数运算改用移位代替除法（`(359*V)>>8` 替代 `1.402*V`）
+- [x] 截获图框过大 → 解码器已将 boxes 缩放到相机分辨率，画图时无需重复缩放
 - [x] `ncnn::Extractor` 每帧局部重建 → 不复用，避免结果缓存导致检测异常
