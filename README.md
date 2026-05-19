@@ -95,7 +95,7 @@ cd /root
 <img src="https://github.com/Superbigbag/edge-Intrusion-detector-imx6ull/blob/main/images/pc%E7%9A%84%E5%90%8C%E6%AD%A5%E6%89%93%E5%8D%B0%E7%BB%93%E6%9E%9C.png" width="400" alt="系统实物图">
 
 ### LED报警
-<img src="https://github.com/Superbigbag/edge-Intrusion-detector-imx6ull/blob/main/images/LED%E4%BA%AE.jpg" width="400" alt="系统实物图">
+<img src="" width="400" alt="系统实物图">
 
 
 
