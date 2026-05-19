@@ -15,7 +15,7 @@ USB 摄像头 (V4L2 YUYV 640×480)
     │
     ├─ YUYV→BGR（整数查表，无浮点运算）
     ├─ 缩放至 352×352，归一化 (1/255)
-    ├─ ncnn:Net 推理（imx6ull支持 NEON 加速）
+    ├─ ncnn:Net 推理（imx6ull 支持 NEON 加速）
     ├─ Anchor 解码 + NMS（IoU 阈值 0.25）
     │
     ├─ GPIO 报警（sysfs 接口，3 帧消抖）
