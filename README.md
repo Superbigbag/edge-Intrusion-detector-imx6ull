@@ -57,7 +57,7 @@ scp models/YOLO-FastestV2_INT8/detect \
     root@<板子IP>:/root/
 ```
 
-**2. 编辑 `mqtt.conf`** — 填入设备密钥即可：
+**2. 编辑 `mqtt.conf`** — 填入设备密钥即可
 
 ```ini
 host      = <华为云 IoTDA 地址>
