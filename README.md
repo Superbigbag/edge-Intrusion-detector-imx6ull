@@ -134,7 +134,7 @@ Topic：`$oc/devices/{device_id}/sys/properties/report`
 ## 相关参考文献
 [嵌入式Linux入门级板卡的神经网络框架ncnn移植与测试-米尔i.MX6UL开发板](https://zhuanlan.zhihu.com/p/607234913)   
 
-[imx6ull移植ncnn框架并运行yolo11目标检测模型（3）部署yolo11目标检测模型，交叉编译自己的程序](https://blog.csdn.net/qq_54050349/article/details/150104418?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-0-150104418-blog-159101483.235^v43^pc_blog_bottom_relevance_base9&spm=1001.2101.3001.4242.1&utm_relevant_index=2)
+[在嵌入式开发板上部署深度神经网络（二）：基于 I.MX6ULL 执行图像分类任务和目标检测任务](https://blog.angustar.com/archives/deploying-DNNs-on-embedded-development-boards-2.html)
 
 ---
 
