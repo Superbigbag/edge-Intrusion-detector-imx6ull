@@ -1,44 +1,40 @@
-# NCNN 边缘端入侵检测
+# ncnn边缘端入侵检测
 
-> 在 **NXP i.MX6ULL** (Cortex-A7 800MHz, 512MB RAM) 上实现实时人员检测，并通过 MQTT 上报华为云 IoT 平台。
+> 在 **NXP iMX6ULL** (Cortex-A7 800MHz, 512MB RAM) 上实现实时人员检测，并通过 MQTT 上报华为云 IoT 平台。
 
 **核心亮点：**
 - **纯 CPU 推理** — 无 GPU、无 NPU，仅靠 ARM NEON 指令加速
 - **INT8 量化** — 单核 Cortex-A7 跑出 400ms/帧，模型仅 272KB
-- **MQTT 云端上报** — 零依赖 MQTT 3.1.1 客户端，HMAC-SHA256 自动签密
+- **MQTT 云端上报** — 零依赖 MQTT 3.1.1 客户端
 
 ---
 
-## 效果展示
-
-| 项目 | 截图 |
-|------|------|
-| 实时检测画面 | <!-- 此处贴检测效果截图/gif --> |
-| GPIO LED 报警 | <!-- 此处贴板子 LED 亮灯照片 --> |
-| MQTT 云端上报 | <!-- 此处贴华为云控制台截图 --> |
-| 截获图（绿框+置信度） | <!-- 此处贴 captures/*.bmp 效果图 --> |
-
+## 系统架构
 ```
-运行日志示例：
-
-[18:20:15] ALARM! 检测到入侵者 (置信度: 0.72)
-           保存截获图: captures/01.bmp
-[18:20:17] 【有人】1人 | 总398 (Y15 R22 M336 D23 P0)
-[18:20:22] ALARM OFF - 目标消失
-[18:20:24] 【无人】总389 (Y15 R22 M327 D23 P0)
+USB 摄像头 (V4L2 YUYV 640×480)
+    │
+    ├─ YUYV→BGR（整数查表，无浮点运算）
+    ├─ 缩放至 352×352，归一化 (1/255)
+    ├─ ncnn:Net 推理（NEON 加速）
+    ├─ Anchor 解码 + NMS（IoU 阈值 0.25）
+    │
+    ├─ GPIO 报警（sysfs 接口，3 帧消抖）
+    ├─ MQTT 上报（QoS 1，HMAC-SHA256 签密）
+    └─ BMP 截获图（画绿框 + 像素字体置信度，20 张循环）
 ```
+ V4L2 采集、BMP写入、YUYV→BGR 转换不依赖 OpenCV、libjpeg等库
+
 
 ---
 
 ## 模型对比
 
-| 模型 | FP16 | **INT8** | 体积 | 算子类型 |
+| 模型 | FP16 | INT8 | 量化后体积 | 算子类型 |
 |------|------|----------|------|----------|
-| **YOLO-FastestV2** ★ | 450ms | **400ms** | 272KB | 非标算子 |
-| NanoDet-m | 1000ms | 800ms | — | 非标算子 |
-| YOLOv11n | 2000ms | 1450ms | — | 标准算子（融合最优） |
+| YOLO-FastestV2 | 450ms/帧 | 400ms/帧 | 272KB | 非标算子 |
+| NanoDet-m | 1000ms/帧 | 800ms/帧 | 981KB | 非标算子 |
+| YOLOv11n | 2000ms/帧 | 1450ms/帧 | 2613KB | 标准算子 |
 
-> ★ 主选模型 — Cortex-A7 上速度/精度/体积综合最优
 
 ### 每帧耗时拆解（YOLO-FastestV2 INT8）
 
@@ -58,7 +54,7 @@ scp models/YOLO-FastestV2_INT8/detect \
     models/YOLO-FastestV2_INT8/yolo-fastestv2.param \
     models/YOLO-FastestV2_INT8/yolo-fastestv2.bin \
     models/YOLO-FastestV2_INT8/mqtt.conf \
-    root@<板子IP>:/app/
+    root@<板子IP>:/root/
 ```
 
 **2. 编辑 `mqtt.conf`** — 填入设备密钥即可：
@@ -75,7 +71,7 @@ keepalive = 60
 **3. 运行**
 
 ```bash
-cd /app
+cd /root
 ./detect yolo-fastestv2.param yolo-fastestv2.bin /dev/video1 0.45
 ```
 
@@ -83,59 +79,28 @@ cd /app
 
 ---
 
-## 系统架构
+## 运行效果
+### 初始化设备
+<img src="https://github.com/Superbigbag/edge-Intrusion-detector-imx6ull/blob/main/images/%E5%88%9D%E5%A7%8B%E5%8C%96%E8%BF%87%E7%A8%8B.png" width="400" alt="系统实物图">
 
-```
-USB 摄像头 (V4L2 YUYV 640×480)
-    │
-    ├─ YUYV→BGR（整数查表，无浮点运算）
-    ├─ 缩放至 352×352，归一化 (1/255)
-    ├─ ncnn::Net 推理（NEON 加速）
-    ├─ Anchor 解码 + NMS（IoU 阈值 0.25）
-    │
-    ├─ GPIO 报警（sysfs 接口，3 帧消抖）
-    ├─ MQTT 上报（QoS 1，HMAC-SHA256 签密）
-    └─ BMP 截获图（画绿框 + 像素字体置信度，20 张循环）
-```
+### 板端截获图
+<img src="https://github.com/Superbigbag/edge-Intrusion-detector-imx6ull/blob/main/images/captures/02.bmp" width="400" alt="系统实物图">
+<img src="https://github.com/Superbigbag/edge-Intrusion-detector-imx6ull/blob/main/images/captures/04.bmp" width="400" alt="系统实物图">
 
-### 零外部依赖
+### MQTT云端上报（时间 2026-05-18 22:31:16）
+<img src="https://github.com/Superbigbag/edge-Intrusion-detector-imx6ull/blob/main/images/mqtt%E4%B8%8A%E4%BC%A0%E7%BB%93%E6%9E%9C.png" width="400" alt="系统实物图">
+<img src="https://github.com/Superbigbag/edge-Intrusion-detector-imx6ull/blob/main/images/%E4%BA%91%E7%AB%AF%E8%A1%A8%E6%A0%BC%E8%AE%B0%E5%BD%95.png" width="400" alt="系统实物图">
 
-不依赖 OpenCV、libjpeg、OpenSSL、mosquitto 等任何第三方库，全部手写：
+### PC同步打印（时间 2026-05-18 22:31:16）
+<img src="https://github.com/Superbigbag/edge-Intrusion-detector-imx6ull/blob/main/images/pc%E7%9A%84%E5%90%8C%E6%AD%A5%E6%89%93%E5%8D%B0%E7%BB%93%E6%9E%9C.png" width="400" alt="系统实物图">
 
-| 模块 | 代码量 | 替代物 |
-|------|--------|--------|
-| `mqtt_client.h` | 211 行 | libmosquitto / paho |
-| HMAC-SHA256 | 139 行 | OpenSSL / mbedtls |
-| BMP 写入 | 45 行 | libjpeg / OpenCV |
-| 5×7 像素字体 | 40 行 | freetype / OpenCV |
-| YUYV→BGR 转换 | 35 行 | OpenCV cvtColor |
-| V4L2 采集 | 200 行 | OpenCV VideoCapture |
+### LED报警
+<img src="https://github.com/Superbigbag/edge-Intrusion-detector-imx6ull/blob/main/images/LED%E4%BA%AE.jpg" width="400" alt="系统实物图">
 
----
 
-## 从源码编译
 
-```bash
-# 1. 设置交叉编译器
-export CROSS_PREFIX=/path/to/arm-linux-gnueabihf/bin/arm-linux-gnueabihf
 
-# 2. 编译 ncnn 库 + 检测程序
-./build.sh                          # 默认编译 YOLOv11n
-
-# 3. 切换模型（CMake 参数）
-cmake -DBUILD_FASTEST=ON ..         # YOLO-FastestV2
-cmake -DBUILD_NANODET=ON ..         # NanoDet-m
-
-# 4. INT8 量化
-./quantize_yolo.sh                  # YOLO-FastestV2 → INT8
-```
-
-编译选项：`-mcpu=cortex-a7 -mfpu=neon-vfpv4 -mfloat-abi=hard -O2 -ffast-math`  
-工具链：Linaro GCC 6.2.1 `arm-linux-gnueabihf`
-
----
-
-## 硬件平台
+## 运行环境
 
 | 组件 | 规格 |
 |------|------|
@@ -144,7 +109,8 @@ cmake -DBUILD_NANODET=ON ..         # NanoDet-m
 | 内存 | 512MB DDR3 |
 | 摄像头 | USB UVC (YUYV 640×480) |
 | 指示灯 | GPIO131 板载 USR LED（低电平亮） |
-
+|编译选项|-mcpu=cortex-a7 -mfpu=neon-vfpv4 -mfloat-abi=hard -O2 -ffast-math|
+|工具链|Linaro GCC 6.2.1|arm-linux-gnueabihf|
 ---
 
 ## MQTT 上报格式
